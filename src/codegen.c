@@ -39,6 +39,12 @@ int funScope;
 int Label;
 void genMainFunctionCode(tree *node);
 
+int tempVar;
+int idx;
+char *activationRecord[ACTIVATION_RECORD];
+instruction *RegHash[TEMP_VAR];
+instruction *SavdRegHash[SAVD_VAR];
+
 // ----------- INSTRUCTION ----- //
 
 instruction *makeRegInstruction(int operation, int dest_reg, int reg1, int reg2) {

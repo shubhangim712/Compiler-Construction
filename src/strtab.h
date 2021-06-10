@@ -24,7 +24,7 @@ struct strEntry{
     struct strEntry *next;
 };
 
-struct strEntry *strTable[MAXIDS];
+extern struct strEntry *strTable[];
 
 int ST_insert(char *id, char *scope, int data_type, int symbol_type, tree *fun_param);
 

@@ -21,7 +21,7 @@ enum nodeTypes {PROGRAM, DECLLIST, DECL, VARDECL, TYPESPEC, FUNDECL,
 
 enum opType {ADD, SUB, MUL, DIV, MOD, LT, LTE, EQ, GTE, GT, NEQ, AND, OR, NOT, INC, DEC, ASSIGN};
 
-tree *ast;  /* pointer to AST root */
+//tree *ast;  /* pointer to AST root */
 
 char* id;
 char *funName;

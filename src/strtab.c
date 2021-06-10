@@ -8,6 +8,8 @@ char *symbolTypes[4] = {"scalar", "array", "function", "arg"};
 
 void updateVarScope(char *scope_name);
 
+struct strEntry *strTable[MAXIDS];
+
 unsigned long hash(char *str)
 {
 	unsigned long hash = 5381;

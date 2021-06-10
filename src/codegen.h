@@ -13,10 +13,10 @@
 #define SUB_FUNCTION 200
 #define ARG 300
 
-int tempVar;
-int idx;
+extern int tempVar;
+extern int idx;
 
-char *activationRecord[ACTIVATION_RECORD];
+extern char *activationRecord[];
 
 typedef struct instruction_node instruction;
 
@@ -29,7 +29,7 @@ struct instruction_node
 	instruction *next;
 };
 
-instruction *RegHash[TEMP_VAR];
-instruction *SavdRegHash[SAVD_VAR];
+extern instruction *RegHash[];
+extern instruction *SavdRegHash[];
 
 void codeGenerate(tree *ast);
