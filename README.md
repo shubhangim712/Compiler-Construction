@@ -5,7 +5,7 @@
 	--sym for Symbol table
 
 	  ./obj/mcc –ast –sym input_file.mC
-	  Example: ./obj/mcc –ast –sym  test/cases/test.mC
+	  Example: ./obj/mcc –ast –sym  test/test.mC
 
 3. Output is saved into output.asm. 
 	Output file path - ./src/output.asm
