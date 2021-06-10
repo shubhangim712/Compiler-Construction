@@ -4,8 +4,8 @@
 	--ast is for AST tree
 	--sym for Symbol table
 
-	  ./obj/scanner –ast –sym input_file.mC
-	  Example: ./obj/scanner –ast –sym  test/cases/test.mC
+	  ./obj/mcc –ast –sym input_file.mC
+	  Example: ./obj/mcc –ast –sym  test/cases/test.mC
 
 3. Output is saved into output.asm. 
 	Output file path - ./src/output.asm
